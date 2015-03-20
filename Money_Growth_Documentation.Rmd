@@ -1,0 +1,19 @@
+---
+title: 'Watch Your Money Grow: Documentation'
+date: "March 19, 2015"
+output: html_document
+---
+
+This document explains how to use the "Watch Your Money GROW!" shiny app. It explains the input needed and the output produced.
+
+### INPUT
+- **Nominal Interest Rate (%)**: the stated interest rate, without taking inflation into account
+- **Inflation Rate (%)**: the rate at which the general level of prices for goods and services is rising, often taken to be about 3% (0.03)
+- **Years Until Retirement**: number of years of working before retirement
+- **Deposit Per Period ($)**: the amount of money deposited on a regular basis (e.g., monthly), in $5 increments
+- **Payment Periods per Year**: the number of times the regular deposit is made each year (e.g., if a deposit is made each month, there are 12 payment periods per year)
+
+### OUTPUT
+- **Real Interest Rate (%)**: the interest rate taking inflation into account
+- **Present Value of Retirement Savings ($)**: the value of the total savings after regular deposits for the number of years until retirement, in today's dollars (without inflation)
+- **Value of Savings at Retirement ($)**: the amount you will see in your retirement account at retirement, in terms of future dollars (taking inflation into account)
